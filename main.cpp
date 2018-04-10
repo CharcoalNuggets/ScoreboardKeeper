@@ -12,6 +12,7 @@ int main()
 {
   int periods;
   int teams;
+  int playerCount = 1;
 
   vector<vector<int> > board;
 
@@ -50,12 +51,13 @@ int main()
   
   for(int r=0; r<board.size(); r++)
   { 
-    cout<<"Player "<< r <<": ";
+    cout<<"Player "<< playerCount <<": ";
     for(int c=0; c<board[r].size(); c++)
     {
       cout<< board[r][c] <<"|";
     }
     cout<<endl;
+    playerCount++;
   }
    //make scoreboard and fill it with zeros
   
