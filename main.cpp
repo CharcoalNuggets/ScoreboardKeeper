@@ -46,8 +46,11 @@ int main()
     }
   }
 
+  cout<<"SCOREBOARD\n";
+  
   for(int r=0; r<board.size(); r++)
-  {
+  { 
+    cout<<"Player "<< r <<": ";
     for(int c=0; c<board[r].size(); c++)
     {
       cout<< board[r][c] <<"|";
