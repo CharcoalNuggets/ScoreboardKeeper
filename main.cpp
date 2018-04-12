@@ -43,12 +43,14 @@ int main()
                 }
         }
 
+        printScoreboard(board);
+
 
         for(int r=0; r<board.size(); r++)
         {
                 for(int c=0; c<board[r].size(); c++)
                 {
-                        board[r][c] = randomBetween(0,9);
+                        board[r][c] = randomBetween(5,5);
                 }
         }
 
